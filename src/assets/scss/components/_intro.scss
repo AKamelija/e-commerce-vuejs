@@ -1,0 +1,85 @@
+.intro-wrapper {
+  // background-color: red;
+  background-image: radial-gradient(circle, white, #f5f7fa, lightgrey);
+  padding: 7.2rem;
+  position: absolute;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(149, 184, 149);
+  margin: auto;
+  width: 60%;
+  padding: 1rem;
+  margin-top: 10rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1.2rem #000;
+  position: relative;
+  top: -7rem;
+  hr {
+    color: #ffc5b0;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 5.6rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.intro-header {
+  h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 2.4rem;
+  }
+  h3 {
+    font-size: 3rem;
+    margin: 0 auto;
+    color: #fff;
+  }
+  p {
+    font-size: 1.2rem;
+    padding-right: 15rem;
+    color: #fff;
+  }
+}
+
+.intro-header--title {
+  display: flex;
+  flex-direction: column;
+}
+
+.special {
+  font-size: 1.6rem;
+  text-shadow: 1px 1px #000;
+}
+.fa {
+  font-size: 4.8rem;
+  color: #fff;
+}
+
+.intro-footer {
+  iframe {
+    height: 100%;
+    width: 68%;
+  }
+  h3 {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+}
+
+.iPhoneX {
+  margin-top: -6.6rem;
+  margin-left: 6.8rem;
+}

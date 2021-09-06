@@ -1,0 +1,85 @@
+.cart-wrapper {
+  padding: 2rem 38rem;
+  background-color: #fff;
+  margin: 2rem 40rem 0 40rem;
+  border-radius: 1rem;
+  opacity: 80%;
+  box-shadow: 0 0 10px black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3.2rem;
+  font-size: 3rem;
+  color: gray;
+}
+
+.inventory {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inventory-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.inventory-item--name {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  padding-right: 1rem;
+  text-decoration: underline;
+}
+
+.inventory-item--price {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: rgb(53, 53, 141);
+}
+
+.inventory-item--qty {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  padding-right: 1.2rem;
+  font-weight: bold;
+}
+
+.inventory-total {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  p:last-child {
+    font-weight: bold;
+    padding-left: 1rem;
+  }
+}
+
+.removeBtn {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 1.6rem;
+}
+
+.underLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buyCart {
+  padding: 0 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(97, 139, 97);
+  font-size: 1.6rem;
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+}

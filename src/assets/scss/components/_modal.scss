@@ -1,0 +1,44 @@
+.modal-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: row;
+}
+.modal-body--elements {
+  margin: 1rem 10rem;
+  padding: 0 1rem;
+  background-color: rgb(179, 179, 179);
+  border-radius: 1rem;
+  cursor: pointer;
+
+  p {
+    font-size: 1.6rem;
+  }
+}
+
+.reset {
+  p {
+    font-size: 1.2rem;
+    color: blue;
+    cursor: pointer;
+  }
+}
+
+.modal-footer {
+  margin-left: 35rem;
+}
+
+.modal-default-button {
+  border: none;
+  background-color: rgb(224, 223, 223);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.green {
+  background-color: rgb(119, 190, 119);
+}
